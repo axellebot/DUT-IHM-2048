@@ -294,10 +294,9 @@ public class Grille {
     public boolean grilleGagne() {
         for (int i = 0; i < this.taille; i++) {
             for (int j = 0; j < this.taille; j++) {
-                if (this.grille[i][j].getValeur() == 2018) {
+                if (this.grille[i][j].getValeur() == 2048) {
                     return true;
                 }
-
             }
         }
         return false;
